@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>layout</title>
+    <style type="text/css">
+      body{
+        margin: 0px;
+      }
+      div#container{
+        width: 100%;
+        height: 960px;
+        background-color: #cccccc;
+      }
+
+      div#head{
+        height: 70px;
+        width: 100%;
+        background-color: #333333;
+      }
+
+      div#content_menu{
+        height: 860px;
+        width: 20%;
+        background-color: #b3d4fc;
+        float: left;
+      }
+
+      div#content_body{
+        height: 860px;
+        width: 80%;
+        background-color: whitesmoke;
+        float: left;
+      }
+
+      div#foot{
+        height: 100px;
+        width: 100%;
+        background-color: #333333;
+        clear: both;
+      }
+    </style>
+</head>
+<body>
+<form>
+  用户名：
+  <input type="text">
+  <br/>
+  密码：
+  <input type="password">
+  <br/>
+  choose more than one
+  <br/>
+  apple
+  <input type="checkbox">
+  pear
+  <br/>
+  <input type="checkbox">
+  choose only one
+  <br/>
+  Yes
+  <input type="radio" name="1">
+  No
+  <input type="radio" name="1">
+  <br/>
+  select what you want
+  <br/>
+  <select>
+    <option> cloth </option>
+    <option> dress </option>
+    <option>lipstick</option>
+  </select>
+  <br/>
+  <input type="button" value="Yes">
+  <input type="button" value="Cancel">
+  <br/>
+  <input type="submit" value="Submit">
+</form>
+   <div id="container">
+     <div id="head">head</div>
+     <div id="content_menu">menu</div>
+     <div id="content_body">body</div>
+     <div id="foot">foot</div>
+
+   </div>
+</body>
+</html>
