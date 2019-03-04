@@ -1,3 +1,3 @@
 <?php
 
-echo "username:".$_GET['name']."<br> password:".$_GET['password'];
+echo "username:".$_POST['name']."<br> password:".$_POST['password'];
