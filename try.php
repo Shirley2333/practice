@@ -1,3 +1,3 @@
 <?php
 
-echo "<h1>....</h1>";
+echo " username: " . $_GET['name'] <br> password:" $_GET['password'] ;
