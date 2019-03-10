@@ -1,3 +1,3 @@
 <?php
 
-echo "form:" . $_POST['form'];
+echo "form02:" . $_POST['form02'];
